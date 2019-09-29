@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e893c667724814cbbae306609c3635, type: 3}
+  m_Name: RemoteSettingsDataStore
+  m_EditorClassIdentifier: 
+  rsKeyList:
+  - key: MorePawsItemCost
+    value: 100
+    type: float
+  - key: MorePawsItemCostMultiplier
+    value: 1.1
+    type: float
+  - key: MorePawsItemName
+    value: More Paws
+    type: string
+  - key: MorePawsItemDescription
+    value: Let other paws do the work for you
+    type: string
+  - key: MorePawsValueToAddOnPurchase
+    value: 0.1
+    type: float
+  - key: MorePawsItemType
+    value: AutoCP
+    type: string
+  - key: PurrIntensifierItemCost
+    value: 1000
+    type: float
+  - key: PurrIntensifierItemCostMultiplier
+    value: 1.05
+    type: float
+  - key: PurrIntensifierItemName
+    value: Purr Intensifier
+    type: string
+  - key: PurrIntensifierItemDescription
+    value: My purr brings all the Humans to the yard
+    type: string
+  - key: PurrIntensifierItemType
+    value: TapIncrease
+    type: string
+  - key: PurrIntensifierValueToAddOnPurchase
+    value: 0.5
+    type: float
+  - key: FurSoftenerItemCost
+    value: 10000
+    type: float
+  - key: FurSoftenerItemCostMultiplier
+    value: 1.02
+    type: float
+  - key: FurSoftenerItemName
+    value: Fur Softener
+    type: string
+  - key: FurSoftenerItemDescription
+    value: So. Shiny
+    type: string
+  - key: FurSoftenerItemType
+    value: TapIncrease
+    type: string
+  - key: FurSoftenerValueToAddOnPurchase
+    value: 2.5
+    type: float

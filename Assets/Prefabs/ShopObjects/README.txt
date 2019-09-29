@@ -1,0 +1,1 @@
+Never change the names of the .asset files in this folder. These names are used to generate a hash value. Which is used to save information regarding the shop. (For example the ID of an item)
